@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>贺墨于的博客</title>
+  
+  
+  <link href="https://hemoua.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://hemoua.github.io/"/>
+  <updated>2022-02-07T13:02:29.226Z</updated>
+  <id>https://hemoua.github.io/</id>
+  
+  <author>
+    <name>贺墨于</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Zerotier的使用</title>
+    <link href="https://hemoua.github.io/2022/02/07/Zerotier%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://hemoua.github.io/2022/02/07/Zerotier%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2022-02-07T12:41:28.000Z</published>
+    <updated>2022-02-07T13:02:29.226Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="在线安装zerotier"><a class="markdownIt-Anchor" href="#在线安装zerotier"></a> 在线安装zerotier</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://install.zerotier.com | sudo bash</span><br></pre></td></tr></table></figure><h2 id="查看安装zerotier版本"><a class="markdownIt-Anchor" href="#查看安装zerotier版本"></a> 查看安装zerotier版本</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo zerotier-cli status</span><br></pre></td></tr></table></figure><h2 id="加入一个network"><a class="markdownIt-Anchor" href="#加入一个network"></a> 加入一个netWork</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo zerotier-cli join ################（networkid）</span><br></pre></td></tr></table></figure><h2 id="查看加入的网络的信息比如network"><a class="markdownIt-Anchor" href="#查看加入的网络的信息比如network"></a> 查看加入的网络的信息，比如network</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo zerotier-cli listnetworks</span><br></pre></td></tr></table></figure><h2 id="退出加入的network网段"><a class="markdownIt-Anchor" href="#退出加入的network网段"></a> 退出加入的network网段</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo zerotier-cli leave ################（networkid）</span><br></pre></td></tr></table></figure><h2 id="启动-停止服务"><a class="markdownIt-Anchor" href="#启动-停止服务"></a> 启动、停止服务</h2><p><strong>(mac下，linux尝试发现没有launchctl command)</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Stop and start the service with launchctl</span></span><br><span class="line"><span class="comment"># 停止</span></span><br><span class="line">sudo launchctl unload /Library/LaunchDaemons/com.zerotier.one.plist</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动</span></span><br><span class="line">sudo launchctl load /Library/LaunchDaemons/com.zerotier.one.plist</span><br></pre></td></tr></table></figure><h2 id="卸载服务未尝试"><a class="markdownIt-Anchor" href="#卸载服务未尝试"></a> 卸载服务（未尝试）</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Cleanly uninstall ZeroTier One, preserving only your secret identity</span></span><br><span class="line"></span><br><span class="line">sudo <span class="string">&quot;/Library/Application Support/ZeroTier/One/uninstall.sh&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;在线安装zerotier&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#在线安装zerotier&quot;&gt;&lt;/a&gt; 在线安装zerotier&lt;/h2&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
