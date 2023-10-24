@@ -2,45 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://motang.top/2023/10/16/page/</loc>
-    
-    <lastmod>2023-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://motang.top/about/me.html</loc>
-    
-    <lastmod>2023-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://motang.top/2022/05/11/DPGN%20Distribution%20Propagation%20Graph%20Network%20for%20Few-shot%20Learning/</loc>
-    
-    <lastmod>2022-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://motang.top/2022/02/07/Zerotier%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     
-    <lastmod>2022-05-12</lastmod>
+    <lastmod>2023-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://motang.top/404/index.html</loc>
+    <loc>https://motang.top/books/index.html</loc>
     
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2023-10-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -48,6 +21,24 @@
   
   <url>
     <loc>https://motang.top/categories/index.html</loc>
+    
+    <lastmod>2023-10-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://motang.top/about/index.html</loc>
+    
+    <lastmod>2023-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://motang.top/404/index.html</loc>
     
     <lastmod>2022-05-11</lastmod>
     
@@ -82,47 +73,29 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://motang.top/books/index.html</loc>
-    
-    <lastmod>2022-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://motang.top/about/index.html</loc>
-    
-    <lastmod>2022-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://motang.top/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://motang.top/tags/Few-Shot/</loc>
-    <lastmod>2023-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://motang.top/tags/%E5%B7%A5%E5%85%B7%E4%B8%8E%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <loc>https://motang.top/tags/zerotier/</loc>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://motang.top/categories/%E5%B7%A5%E5%85%B7%E4%B8%8E%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
+    <lastmod>2023-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
